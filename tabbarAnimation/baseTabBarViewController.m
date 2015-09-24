@@ -7,6 +7,7 @@
 //
 
 #import "baseTabBarViewController.h"
+#import "ViewController.h"
 
 
 @interface baseTabBarViewController () <UITabBarDelegate>{
@@ -26,16 +27,18 @@
     [self.tabBar addSubview:moveView];
 }
 
-- (void)setupChildViewControllerWithArray:(NSArray *)controllers{
+- (void)setupChildViewControllerWithArray:(NSArray *)controllers imageNames:(NSArray *)imageNames selectedImageNames:(NSArray *)selectedImageNames{
     self.itemsStstus = [[NSMutableDictionary alloc] init];
     for (int i = 0; i < controllers.count; i++) {
         self.itemsStstus[[controllers[i] title]] = @(i);
-        [self setupChileViewController:controllers[i] title:[controllers[i] title]];
+        [self setupChileViewController:controllers[i] title:[controllers[i] title] imageName:imageNames[i] selectedImageName:selectedImageNames[i]];
     }
 }
 
-- (void)setupChileViewController:(UIViewController *)childVC title:(NSString *)title{
+- (void)setupChileViewController:(UIViewController *)childVC title:(NSString *)title imageName:(NSString *)imageName selectedImageName :(NSString *)selectedImageName{
     childVC.title = title;
+    childVC.tabBarItem.image = [UIImage imageNamed:imageName];
+    childVC.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:childVC];
     [self addChildViewController:nav];
 }

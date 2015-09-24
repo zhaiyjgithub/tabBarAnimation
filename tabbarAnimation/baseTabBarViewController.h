@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface baseTabBarViewController : UITabBarController
-- (void)setupChildViewControllerWithArray:(NSArray *)controllers;
+- (void)setupChildViewControllerWithArray:(NSArray *)controllers imageNames:(NSArray *)imageNames selectedImageNames:(NSArray *)selectedImageNames;
 @end

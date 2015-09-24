@@ -32,9 +32,12 @@
     ViewController * VC4 = [[ViewController alloc] init];
     VC4.title = @"个人";
     VC4.view.backgroundColor = [UIColor yellowColor];
-
+    
+    NSArray * imageNames = @[@"icon_tabbar_merchant_normal",@"icon_tabbar_nearby_normal",@"mine_tabbar_mine_normal",@"tabbar_home_normal"];
+    NSArray * selectedImageNames = @[@"icon_tabbar_merchant_selected",@"icon_tabbar_nearby_selected",@"mine_tabbar_mine_selected",@"tabbar_home_selected"];
+    
     baseTabBarViewController * baseTabVC = [[baseTabBarViewController alloc] init];
-    [baseTabVC setupChildViewControllerWithArray:@[VC1,VC2,VC3,VC4]];
+    [baseTabVC setupChildViewControllerWithArray:@[VC1,VC2,VC3,VC4] imageNames:imageNames selectedImageNames:selectedImageNames];
     self.window.rootViewController = baseTabVC;
     [self.window makeKeyAndVisible];
     return YES;

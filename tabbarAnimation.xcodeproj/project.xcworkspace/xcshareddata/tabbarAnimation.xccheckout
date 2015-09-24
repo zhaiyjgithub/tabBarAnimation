@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DB1A000-42B3-4575-A505-76611309B9E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tabbarAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>977F17290791AE20C4F7E6FCD0188EADD9B6BA2B</key>
+		<string>https://github.com/zhaiyjgithub/tabBarAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tabbarAnimation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>977F17290791AE20C4F7E6FCD0188EADD9B6BA2B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhaiyjgithub/tabBarAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>977F17290791AE20C4F7E6FCD0188EADD9B6BA2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>977F17290791AE20C4F7E6FCD0188EADD9B6BA2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tabBarAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
